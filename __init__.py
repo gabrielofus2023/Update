@@ -1,1 +1,2 @@
-from .gd_functions import checkGDrive, GDapi, GDapiError
+from .ftp_functions import FTPps, FTPError
+from .socket_functions import SocketPS, SocketError
