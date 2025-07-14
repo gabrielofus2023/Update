@@ -1,4 +1,3 @@
-from .common import QuickCheatsError, QuickCheats
-from .quickcodes import QuickCodes, QuickCodesError
-from .gtav_cheats import Cheats_GTAV
-from .rdr2_cheats import Cheats_RDR2
+from .common import ConverterError, Converter
+from .rstar_converter import Converter_Rstar
+from .bl3_converter import Converter_BL3, BL3_conv_button
